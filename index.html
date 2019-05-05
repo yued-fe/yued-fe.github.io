@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<base target="_blank" />
+		<title>阅文前端 Sitemap</title>
+		<style>
+			* { box-sizing: border-box; }
+			body, html, li, ul, ol { margin: 0; padding: 0; }
+			body, html, .page { background-position: 50% 50%; background-attachment: fixed; background-size: cover; height: 100%; overflow: hidden; }
+			html {     background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957); }
+			body { color: #fff; line-height: 1.5; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased;
+			}
+			a { color: inherit; text-decoration: none; }
+			.mb16{ margin-bottom: 16px; }
+			.db{ display: block; }
+			.page {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.dn { display: none; }
+			.scroll-wrap { padding: 1rem; max-height: 100%; overflow-y: auto; }
+			.scroll-wrap + .scroll-wrap { margin-left: 8%; }
+			.list { list-style: none; }
+			.list strong { font-weight: 900; font-size: 1.2em; }
+			.list a { transition: 200ms; display: block; padding: 0.5rem 0; white-space: nowrap; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+			.list a:hover { transform: translateX(0.5rem); color: #ffff00; text-decoration: underline; text-shadow: 0 0 4px #ffff00;  }			
+			@media screen and (max-width:756px) {
+				.page { display: block; text-align: center; overflow-y: auto; }
+				.scroll-wrap { height: initial; overflow: initial; display: block; }
+				.scroll-wrap + .scroll-wrap { margin-left: 0; }
+			}
+		</style>
+	</head>
+	<body class="page">
+		<h1 class="dn">阅文前端 Sitemap</h1>
+		<div class="scroll-wrap">
+			<h2>Workflow</h2>
+			<ol class="list">
+				<li>
+					<a href="https://story.yueio.net/">
+						<strong>“哇牛叉”</strong>						
+						阅之国“哇牛叉”（YUX）学院故事
+					</a>
+				</li>
+				<li>
+					<a href="https://l-ui.com/">
+						<strong>LULU</strong>
+						前端UI框架「Jquery」
+					</a>
+				</li>
+				<li>
+					<a href="https://yued-fe.github.io/YFE-BP/">
+						<strong>YFE-BP</strong>
+						团队最佳实践
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/yued-fe/y-tools">
+						<strong>y-tools</strong>
+						Sketch插件
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/yued-fe/y-workflow">
+						<strong>y-workflow</strong>
+						前端工作流
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/yued-fe/y-translation">
+						<strong>y-translation</strong>
+						翻译计划
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/yued-fe/y-font">
+						<strong>y-font</strong>
+						阅文中文字体接口服务
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/yued-fe/bobo-electron">
+						<strong>bobo</strong>
+						静态活动页面辅助发布工具
+					</a>
+				</li>
+			</ol>
+		</div>
+		<div class="scroll-wrap">
+			<h2>动态</h2>
+			<ol class="list">
+				<li>
+					<a href="https://www.zhihu.com/org/yue-wen-ji-tuan-qian-duan-tuan-dui/activities" title="知乎主页"><strong>知乎主页</strong></a>
+				</li>
+				<li>
+					<a href="https://juejin.im/user/5acb247951882555712ca8ee" title="掘金主页"><strong>掘金主页</strong></a>
+				</li>
+				<li>
+					<a href="http://join.yuewen.com/" title="加入我们"><strong>加入我们</strong></a>
+				</li>
+				<li>
+					<strong class="db mb16">微信公众号</strong>
+					<img src="assets/img/wechat.png" width="140" height="140" alt="微信扫一扫">
+				</li>
+			</ol>
+		</div>
+	</body>
+</html>
