@@ -4,109 +4,237 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<base target="_blank" />
-		<title>阅文前端 Sitemap</title>
-		<style>
-			* { box-sizing: border-box; }
-			body, html, li, ul, ol { margin: 0; padding: 0; }
-			body, html, .page { background-position: 50% 50%; background-attachment: fixed; background-size: cover; height: 100%; overflow: hidden; }
-			html {     background-color: #159957;
-    background-image: linear-gradient(120deg, #155799, #159957); }
-			body { color: #fff; line-height: 1.5; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased;
-			}
-			a { color: inherit; text-decoration: none; }
-			.mb16{ margin-bottom: 16px; }
-			.db{ display: block; }
-			.page {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
-			.dn { display: none; }
-			.scroll-wrap { padding: 1rem; max-height: 100%; overflow-y: auto; }
-			.scroll-wrap + .scroll-wrap { margin-left: 8%; }
-			.list { list-style: none; }
-			.list strong { font-weight: 900; font-size: 1.2em; }
-			.list a { transition: 200ms; display: block; padding: 0.5rem 0; white-space: nowrap; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-			.list a:hover { transform: translateX(0.5rem); color: #ffff00; text-decoration: underline; text-shadow: 0 0 4px #ffff00;  }			
-			@media screen and (max-width:756px) {
-				.page { display: block; text-align: center; overflow-y: auto; }
-				.scroll-wrap { height: initial; overflow: initial; display: block; }
-				.scroll-wrap + .scroll-wrap { margin-left: 0; }
-			}
-		</style>
+		<link rel="icon" href="assets/img/yf.ico" type="image/x-icon"/>
+		<title>YUX Navigation</title>
+		<link rel="stylesheet" href="assets/css/index.css">
 	</head>
-	<body class="page">
-		<h1 class="dn">阅文前端 Sitemap</h1>
-		<div class="scroll-wrap">
-			<h2>Workflow</h2>
-			<ol class="list">
-				<li>
-					<a href="https://story.yueio.net/">
-						<strong>“哇牛叉”</strong>						
-						阅之国“哇牛叉”（YUX）学院故事
-					</a>
-				</li>
-				<li>
-					<a href="https://l-ui.com/">
-						<strong>LULU</strong>
-						前端UI框架「Jquery」
-					</a>
-				</li>
-				<li>
-					<a href="https://yued-fe.github.io/YFE-BP/">
-						<strong>YFE-BP</strong>
-						团队最佳实践
-					</a>
-				</li>
-				<li>
-					<a href="https://github.com/yued-fe/y-tools">
-						<strong>y-tools</strong>
-						Sketch插件
-					</a>
-				</li>
-				<li>
-					<a href="https://github.com/yued-fe/y-workflow">
-						<strong>y-workflow</strong>
-						前端工作流
-					</a>
-				</li>
-				<li>
-					<a href="https://github.com/yued-fe/y-translation">
-						<strong>y-translation</strong>
-						翻译计划
-					</a>
-				</li>
-				<li>
-					<a href="https://github.com/yued-fe/y-font">
-						<strong>y-font</strong>
-						阅文中文字体接口服务
-					</a>
-				</li>
-				<li>
-					<a href="https://github.com/yued-fe/bobo-electron">
-						<strong>bobo</strong>
-						静态活动页面辅助发布工具
-					</a>
-				</li>
-			</ol>
+	<body>
+		<h1 class="dn">YUX Navigation</h1>
+		<div class="page df fdc jcc">
+			<form action="https://www.google.com/search" class="tac search df aic jcc">
+				<input type="text" name="q" placeholder="Google Search">
+			</form>
+			<div class="df jcc card-wraps">
+				<div class="card-wrap">
+					<div class="card-hd ">
+						<h2>🖥 Stuff</h2>
+						<p>YUX Team</p>
+					</div>
+					<ol class="card-list card-scroll">
+					
+						<li>
+							<a title="“哇牛叉”" href="https://story.yueio.net/">
+								<strong>“哇牛叉”</strong>
+								阅之国“哇牛叉”（YUX）学院故事
+							</a>
+						</li>
+						<li>
+							<a title="LULU" href="https://l-ui.com/">
+								<strong>LULU</strong>
+								前端UI框架「Jquery」
+							</a>
+						</li>
+					</ol>
+				</div>
+				<div class="card-wrap">
+					<div class="card-hd ">
+						<h2>❤️ YUX</h2>
+						<p>User experience</p>
+					</div>
+					<ol class="card-scroll card-list">
+						<li>
+							<a href="https://www.zhihu.com/org/yue-wen-ti-yan-she-ji-yux/" title="知乎主页">
+								<i class="card-avatar">
+									<img src="assets/img/zhihu.png" width="40" height="40" alt="知乎">
+								</i>
+								<strong>知乎主页</strong>
+								与世界分享你刚编的故事
+							</a>
+						</li>
+						<li>
+							<a href="https://www.zcool.com.cn/u/18178178" title="站酷主页">
+								<i class="card-avatar">
+								<img src="assets/img/zcool.png" width="40" height="40" alt="站酷">
+								</i>
+								<strong>站酷主页</strong>
+								让设计更有价值
+							</a>
+						</li>
+						<li class="card-item-share share-wx">
+							<a href="javascript:;" title="微信公众号">
+								<i class="card-avatar">
+								<img src="assets/img/wx.png" width="40" height="40" alt="微信">
+								</i>
+								<strong>微信公众号</strong>
+								求关注求点赞 👍
+							</a>
+							<div class="share-wx-box">
+								<img src="assets/img/yux.png" width="140" height="140" alt="微信扫一扫">
+							</div>
+						</li>
+						<li class="card-hr"></li>
+						<li>
+							<a href="https://yuewen.lexiangla.com/teams/yued">
+								<strong>乐享</strong>
+								体验设计部乐享
+							</a>
+						</li>
+					</ol>
+				</div>
+				<div class="card-wrap">
+					<div class="card-hd ">
+						<h2>🌊 YFE</h2>
+						<p>Web front end</p>
+					</div>
+					<ol class="card-scroll card-list">
+						<li>
+							<a href="https://www.zhihu.com/org/yue-wen-ji-tuan-qian-duan-tuan-dui/activities" title="知乎主页">
+								<i class="card-avatar">
+									<img src="assets/img/zhihu.png" width="40" height="40" alt="知乎">
+								</i>
+								<strong>知乎主页</strong>
+								与世界分享你刚编的故事
+							</a>
+						</li>
+						<li>
+							<a href="https://juejin.im/user/5acb247951882555712ca8ee" title="掘金主页">
+								<i class="card-avatar">
+								<img src="assets/img/juejin.png" width="40" height="40" alt="掘金">
+								</i>
+								<strong>掘金主页</strong>
+								挖掘最优质的互联网技术
+							</a>
+						</li>
+						<li class="card-item-share share-wx">
+							<a href="javascript:;" title="微信公众号">
+								<i class="card-avatar">
+									<img src="assets/img/wx.png" width="40" height="40" alt="微信">
+								</i>
+								<strong>微信公众号</strong>
+								求关注求点赞 👍
+							</a>
+							<div class="share-wx-box">
+								<img src="assets/img/yfe.png" width="140" height="140" alt="微信扫一扫">
+							</div>
+						</li>
+						<li class="card-hr"></li>
+						<li>
+							<a title="YFE前端双周会" href="https://yuewen.lexiangla.com/teams/k100032">
+								<strong>&lt;YFE/&gt;</strong>
+								前端双周会最新分享目前「 59期 」
+							</a>
+						</li>
+						<li>
+							<a title="团队最佳实践" href="https://yued-fe.github.io/YFE-BP/">
+								<strong>YFE-BP</strong>
+								团队最佳实践
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/yued-fe/y-tools">
+								<strong>y-tools</strong>
+								Sketch插件
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/yued-fe/y-workflow">
+								<strong>y-workflow</strong>
+								前端工作流
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/yued-fe/y-translation">
+								<strong>y-translation</strong>
+								翻译计划
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/yued-fe/y-font">
+								<strong>y-font</strong>
+								阅文中文字体接口服务
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/yued-fe/bobo-electron">
+								<strong>bobo</strong>
+								静态活动页面辅助发布工具
+							</a>
+						</li>
+					</ol>
+				</div>
+				<div class="card-wrap">
+					<div class="card-hd">
+						<h2>🦄 动态</h2>
+						<p>Activity</p>
+					</div>
+					<ol class="card-list card-scroll">
+						<li>
+							<a href="https://mp.weixin.qq.com/s?__biz=MzIyNDQ1Mzg4Mg==&mid=2247483710&idx=1&sn=b39f2b68ed7585af7cca7d401482cecc&chksm=e80ff4abdf787dbd64d079dce2b78d566bd6012c7dc0b1cd39022692f8540748ed5ec71f6b51&mpshare=1&scene=1&srcid=&rd2werd=1#wechat_redirect"  title="阅文最持久的小哥哥和小姐姐">
+								<strong>阅文最持久的小哥哥和小姐姐</strong>
+								还有6块腹肌！
+							</a>
+						</li>
+						<li class="_up">
+							<div class="_a" title="广告位招租">
+								<strong>广告位招租</strong>
+								这里还不知道放什么
+							</div>
+						</li>						
+						<li class="_up share-wx">
+							<a href="https://docs.google.com/presentation/d/1bmnt_Cb6JA1uoT132zZLpq2rdGHYV8_j6OKxTpRjWZU/edit#slide=id.g59cb66fcf3_0_318"  title="孙美业">
+								<i class="card-avatar">
+									<img src="assets/img/new/smy-avatar.png" width="40" height="40" alt="孙美业">
+								</i>
+								<strong>👩 孙美业「 前端 」</strong>
+								新入职的前端小姐姐								
+							</a>
+							<div class="share-wx-box">
+								<img src="assets/img/new/smy-wx.png" width="140" height="140" alt="微信扫一扫">
+							</div>
+						</li>
+						<li class="_up share-wx">
+							<a href="https://docs.google.com/presentation/d/1bfLSYX73K87Qx9B4wgUXiBSNz00MHGDVvkpFA8Y0VeQ/edit?usp=sharing" title="李怡琳">
+								<i class="card-avatar">
+									<img src="assets/img/new/lyl-avatar.png" width="40" height="40" alt="李怡琳">
+								</i>
+								<strong>👩 李怡琳「 运营设计 」</strong>
+								做人呐最重要就是开心鸭 [偷笑]
+							</a>
+							<div class="share-wx-box">
+								<img src="assets/img/new/lyl-wx.png" width="140" height="140" alt="微信扫一扫">
+							</div>
+						</li>
+						<li class="_up share-wx">
+							<a href="https://docs.google.com/presentation/d/1NVy19XdXdEz0ceZvkDbnB5w5p2UUNlEAHuIhVoimy9Q/edit?usp=sharing" title="魏兴之">
+								<i class="card-avatar">
+									<img src="assets/img/new/wxz-avatar.png" width="40" height="40" alt="魏兴之">
+								</i>
+								<strong>👨 魏兴之 「 运营设计 」</strong>
+								热爱产粮（这样🙏
+							</a>
+							<div class="share-wx-box">
+								<img src="assets/img/new/wxz-wx.png" width="140" height="140" alt="微信扫一扫">
+							</div>
+						</li>						
+						<li class="card-hr"></li>
+						<li>
+							<div class="_a" title="广告位招租">
+								<strong>@梁捷</strong>
+								感谢Jony提供设计支持
+							</div>
+						</li>
+						<li>
+							<div class="_a" title="广告位招租">
+								<strong>@飞飞</strong>
+								感谢飞飞提供技术支持
+							</div>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<p class="tac pb8 c_s fs14 pa l0 w100p b0">&lt; Powered by YFE /&gt; </p>
 		</div>
-		<div class="scroll-wrap">
-			<h2>动态</h2>
-			<ol class="list">
-				<li>
-					<a href="https://www.zhihu.com/org/yue-wen-ji-tuan-qian-duan-tuan-dui/activities" title="知乎主页"><strong>知乎主页</strong></a>
-				</li>
-				<li>
-					<a href="https://juejin.im/user/5acb247951882555712ca8ee" title="掘金主页"><strong>掘金主页</strong></a>
-				</li>
-				<li>
-					<a href="http://join.yuewen.com/" title="加入我们"><strong>加入我们</strong></a>
-				</li>
-				<li>
-					<strong class="db mb16">微信公众号</strong>
-					<img src="assets/img/wechat.png" width="140" height="140" alt="微信扫一扫">
-				</li>
-			</ol>
-		</div>
+		<div class="background"></div>
+		<script>;</script>
 	</body>
 </html>
