@@ -438,11 +438,13 @@ a.card-item:hover {
   border: none 0;
   -webkit-transition: 200ms;
   transition: 200ms;
+  opacity: 0.8;
 }
 .search input:focus {
   outline: none;
   -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+  opacity: 1;
 }
 @media screen and (max-width: 1440px) {
   .search {
